@@ -9,7 +9,7 @@
     "changeset:add": "changeset add",
     "changeset:version": "changeset version",
     "changeset:publish": "changeset publish",
-    "build:all": "pnpm run build -r",
+    "build:all": "pnpm run build -r --if-present --filter 'apollo-server-midway3'",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
