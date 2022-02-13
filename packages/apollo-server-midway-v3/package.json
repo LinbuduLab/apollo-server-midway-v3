@@ -1,9 +1,17 @@
 {
   "name": "apollo-server-midway3",
-  "version": "0.0.1",
-  "description": "Apollo Server integration for MidwayJS",
+  "version": "0.2.0",
+  "description": "Apollo Server integration for MidwayJS(v3)",
   "main": "./dist/index.js",
+  "author": "linbudu599",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LinbuduLab/apollo-server-midway-v3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinbuduLab/apollo-server-midway-v3.git"
+  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
